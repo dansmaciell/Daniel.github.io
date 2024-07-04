@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('foto.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;  /* Ajusta a cor do texto para ficar visível sobre a imagem */
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    height: 100vh; /* Define a altura da página para ocupar toda a janela */
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);  /* Fundo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h1 {
+    color: #fff;  /* Texto em branco */
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f5f;
+}
